@@ -1,38 +1,37 @@
 {
-	"schemaVersion": 1,
-	"id": "cool_elytra",
-	"version": "${version}",
-	
-	"name": "Cool Elytra",
-	"description": "Rolls the camera while turning in flight",
-	"authors": [
-		"Jorbonism",
-		"Motschen"
-	],
-	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/cool-elytra-roll",
-		"sources": "https://github.com/Jorbon/cool_elytra"
-	},
-	
-	"license": "GPL-3.0",
-	"icon": "assets/cool_elytra/icon.png",
+  "schemaVersion": 1,
+  "id": "coolelytra",
+  "version": "${version}",
 
-	"entrypoints": {
-		"client": [
-			"edu.jorbonism.cool_elytra.CoolElytraClient"
-		]
-	},
-	
-	"environment": "client",
-	"mixins": [
-		"cool_elytra.mixins.json"
-	],
-	
-	"depends": {
-		"fabricloader": ">=0.11.6",
-		"fabric": "*",
-		"minecraft": ">=1.17",
-		"java": ">=16",
-		"midnightlib": "*"
-	}
+  "name": "Cool Elytra",
+  "description": "Rolls the camera while turning in flight",
+  "authors": [
+    "Jorbonism",
+    "Motschen",
+    "booky10"
+  ],
+
+  "contact": {
+    "sources": "https://github.com/booky10/coolelytra/"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/coolelytra/icon.png",
+
+  "entrypoints": {
+    "client": [
+      "edu.jorbonism.coolelytra.CoolElytraClient"
+    ]
+  },
+
+  "environment": "client",
+  "mixins": [
+    "coolelytra.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.6",
+    "minecraft": ">=1.18",
+    "java": ">=17"
+  }
 }
