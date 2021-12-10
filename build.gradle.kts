@@ -19,7 +19,7 @@ version = "1.3.1+fabric.${getGitCommit()}"
 group = "edu.jorbonism"
 
 dependencies {
-    minecraft("com.mojang:minecraft:1.18")
+    minecraft("com.mojang:minecraft:1.18.1")
     mappings(loom.officialMojangMappings())
 
     modImplementation("net.fabricmc:fabric-loader:0.12.6")
